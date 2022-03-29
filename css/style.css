@@ -30,7 +30,7 @@ body {
 /* typografi */
 
 h1 {
-  font-family: var(--brødtekst);
+  font-family: var(--overskrift);
   font-weight: 200;
   color: var(--offwhite);
   background-color: var(--darkgrey);
@@ -54,32 +54,72 @@ h1 {
 
 /* indhold */
 
+/*  indhold 2 = om Emma */
+.container{
+  min-height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Billede af Emma*/
+.leftcontainer{
+  width: 50%;
+  height: 600px;
+  background-image: url(../images/emma.JPG); no-repeat center / cover;
+  border-radius: 8px;
+}
+
+.rightcontainer{
+  width: 50%;
+  min-height: 400px;
+  background-color: var(--beige);
+  display:
+  align-items: center;
+  justify-content: center;
+}
+/* Banner - Overvejelser inden praktik + student and company days*/
 .banner{
   background-color: var(--darkgrey);
   width: 100%;
+
 }
 
 .banner h1{
-font-size: 22px;
+font-family: var(--overskrift);
+font-size: 30px;
 color: var(--beige);
-padding: 40px;
+padding-left: 15%;
+padding-top: 40px;
 }
 
 .banner p{
-font-size: 15px;
+font-size: 18px;
 font-family: var(--brødtekst);
 color: var(--beige);
+padding-left: 15%;
+padding-right: 15%;
+padding-top: 10px;
+padding-bottom: 40px;
+line-height: 2.5;
 }
+
 
 /* footer */
-
 #footerInformation{
   background-color: var(--darkgrey);
-  color: var(--offwhite);
-  min-height: 45px;
-  padding-top: 23px;
-  padding-bottom: 23px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
+
+#footerInformation p{
+  font-family: var(--brødtekst);
+  color: var(--offwhite);
+  font-size: 15px;
+  padding-left: 10%;
+}
+
 
 
 
@@ -89,6 +129,8 @@ color: var(--beige);
 
   .overskrifter {
     max-width: 100%;
+    margin-top: 25px;
+    margin-bottom: 20px;
   }
 
   /*indhold mobil */
@@ -102,9 +144,33 @@ color: var(--beige);
     margin-right: auto;
   }
 
+  /* Banner - Overvejelser inden praktik + student and company days - mobil */
 
+  .banner h1{
+  font-size: 20px;
+  padding-left: 15%;
+  padding-top: 30px;
+  }
 
-/* typografi mobil*/
+  .banner p{
+  font-size: 14px;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  }
+
+/* indhold 5 - mobil*/
+
+  #indhold5 { /*margin på indholdet*/
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .fedtekst, .beskrivelse, .citat {
+    text-align: center;
+  }
+
   .fedtekst {
     font-size: 30px;
   }
@@ -114,7 +180,18 @@ color: var(--beige);
   }
 
   .citat {
-    font-size: 30px;
+    font-size: 25px;
+  }
+
+  .row5 img {
+    max-width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .column5 {
+    margin-top: 25%;
   }
 
 
@@ -131,6 +208,7 @@ color: var(--beige);
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10%;
   }
 
   video {
@@ -140,6 +218,47 @@ color: var(--beige);
     margin-left: auto;
     margin-right: auto;
   }
+
+
+  /* indhold 5 - laptop */
+
+    #indhold5 {
+      margin-bottom: 10%;
+    }
+
+    .column5 {
+      display: flex;
+      margin-top: 10%;
+      margin-left: 15%;
+      margin-right: 15%;
+    }
+
+    .mette {
+      flex-direction: row-reverse;
+    }
+
+    .row5 img {
+      max-width: 350px;
+    }
+
+    .rowtekst {
+      margin-left: 10%;
+      margin-right: 7%;
+    }
+
+    .fedtekst {
+      font-size: 40px;
+    }
+
+    .beskrivelse {
+      font-size: 20px;
+    }
+
+    .citat {
+      font-size: 30px;
+    }
+
+
 }
 
 
@@ -157,12 +276,32 @@ color: var(--beige);
 
   video {
     margin-top: 10%;
-    max-width: 80%;
+    width: 60%;
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
 
 
+
+
+  /* Baggrunds billeder styles */
+
+  .rellax img {
+    max-width: 180px;
+  }
+
+  .sky1 {
+    padding-left: 3%;
+  }
+
+  .sky2 {
+    padding-right: 3%;
+  }
+
+  .sky3 {
+    padding-left: 60%;
+
+  }
 
 }

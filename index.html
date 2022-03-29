@@ -16,8 +16,13 @@
 <body>
 
 <main>
-  <!-- indhold 1 = video om praktik-->
-<img class="overskrifter" src="images/overskrift.PNG" alt="følgemma">
+
+
+
+
+
+  <!-- indhold 1 = video om praktik og video-->
+<img class="overskrifter" src="images/overskrift1.PNG" alt="følgemma">
 
 
 <video controls>
@@ -25,9 +30,37 @@
 </video>
 
 
+<!-- Baggrunds skyer, som flyver rundt-->
+
+<div class="rellax sky1" data-rellax-speed="-10">
+    <img src="images/sky1.png" alt="Baggrunds billede, abstrakt sky" data-aos="zoom-in"><br>
+</div>
+
+<div class="rellax sky2" data-rellax-speed="7">
+    <img src="images/sky2.png" alt="Baggrunds billede, abstrakt sky" data-aos="zoom-in"><br>
+</div>
+
+<div class="rellax sky3" data-rellax-speed="-2">
+    <img src="images/sky3.png" alt="Baggrunds billede, abstrakt sky" data-aos="zoom-in"><br>
+</div>
+
+
   <!-- indhold 2 = om Emma -->
 
+<div class="container">
+  <div class"leftcontainer">
 
+<img class="emma" src="images/emma.JPG" alt="Emma billede">
+
+</div>
+
+<div class="rightcontainer">
+<img class="overskrifter" src="images/emmaovrskrift2.png" alt="Emma Dalgaard praktikant hos AYTM">
+<p>Emma er 22 år gammel. Hun flyttede i sommeren 2020 til Aarhus fra Holstebro,
+  for at læse multimediedesign på Aarhus Erhvervsakademi. I hendes fritid elsker hun at bruge tid med sin familie og sine veninder.
+  Lige nu er hun i praktik hos en interiør virksomhed - AYTM. Her har hun ansvaret for SOME ……..</p>
+  </div>
+</div>
 
   <!-- indhold 3 = overvejelser inden praktik -->
 
@@ -44,7 +77,7 @@
 
   <!-- indhold 4 = video hos AYTM -->
 
-  <img class="overskrifter" src="#" alt="">
+  <img class="overskrifter" src="images/overskriftAYTM.png" alt="På besøg hos AYTM">
 
   <video controls>
   <source src="#" type="video/mp4">
@@ -53,31 +86,40 @@
 
   <!-- indhold 5 = tanker fra interviewpersoner -->
 
+<img class="overskrifter" src="images/tankerbekymeringer.png" alt="Tanker og bekymeringer">
+
+
 <section id="indhold5">
 
   <div class="column5">
-  <div class="row5"></div>
+  <div class="row5">
+    <img id="rasmus" src="images/rasmus.jpg" alt="rasmusbillede">
+  </div>
 
   <div class="rowtekst">
     <div class="fedtekst"><p>Klik på Rasmus og hør hans tanker</p></div>
     <div class="beskrivelse"><p>Rasmus er 23 år og studerer markedsføringsøkonom på 2. semester på Erhvervsakademiet i Aarhus.</p></div>
-    <div class="citat"><p>“Jeg glæder mig til at være på rigtig arbejdsform og så glæder jeg mig til at bruge de teorier jeg har brugt i praksis”</p></div>
+    <div class="citat"><p>“Jeg glæder mig til at være på rigtig arbejdsplads og så glæder jeg mig til at bruge de teorier jeg har brugt i praksis”</p></div>
   </div>
 
   </div>
 
-  <div class="column5">
+  <div class="column5 mette">
+    <div class="row5">
+      <img src="images/mette.jpg" alt="mettebillede">
+    </div>
+
     <div class="rowtekst">
       <div class="fedtekst"><p>Klik på Mette og hør hendes tanker</p></div>
       <div class="beskrivelse"><p>Mette er 22 år og studerer multimediedesign på 2. semester på Erhvervsakademiet i Aarhus.</p></div>
       <div class="citat"><p>“Jeg føler min uddannelse er meget bred, så jeg bliver i tvivl om hvilke muligheder jeg har”</p></div>
     </div>
-
-    <div class="row5"></div>
   </div>
 
   <div class="column5">
-    <div class="row5"></div>
+    <div class="row5">
+      <img src="images/karo.jpg" alt="karolinebillede">
+    </div>
 
     <div class="rowtekst">
       <div class="fedtekst"><p>Klik på Karoline og hør hendes tanker</p></div>
@@ -90,10 +132,22 @@
 
 
   <!-- indhold 6 = info om student/company days -->
-
+  <div class="banner">
+    <h1>Student and company days </h1>
+    <p> Erhvervsakademiet er gode til at hjælpe de studerende med at finde et
+      praktiksted. Her er de fx med til at arrangere flere student og company
+      days. Ved student days har man, som studerende en lille stand, hvor de
+      forskellige virksomheder kommer rundt og høre om lige præcis dig.
+      Ved company days er det omvendt og virksomhederne har en lille stand.
+      Her kan de studerende gå rundt til de forskellige virksomheder og høre
+      mere om en mulig praktik hos dem. Dette er en oplagt mulighed for at
+      finde sin praktikplads her.  </p>
+  </div>
 
 
   <!-- indhold 7 = fremtidsplaner -->
+  <img class="overskrifter" src="images/fremtid.png" alt="Fremtidsplaner">
+
 
 
 
@@ -104,6 +158,15 @@
     <p>Læs mere om erhvervsakademiet på https://www.eaaa.dk/</p>
     </div>
 </footer>
+
+
+
+
+<!-- Først loades 1. library-->
+  <script src="js/rellax.min.js"></script>
+
+<!-- Link til vores eget JS-->
+  <script src="js/js.js"></script>
 
 </body>
 </html>
