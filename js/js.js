@@ -5,19 +5,19 @@
 let rellax = new Rellax ('.rellax')
 
 
-// billeder med audio
+// billeder med lyd
 
-let t= document.getElementById('test');
+document.getElementById('play').addEventListener('click', function (e) {
+  e.preventDefault();
+  document.getElementById('audio').play();
+});
 
-function minFunktion(){
-  besked.innerHTML = `
-  <nav>
-      <ul>
-      <p>Patrcia har et secret crush på en i klassen</p>
-    </ul>
-  </nav>
-  `;
-  test.style.display = 'none';
-}
+document.getElementById('play2').addEventListener('click', function (e) {
+  e.preventDefault();
+  document.getElementById('audio2').play();
+});
 
-t.addEventListener('click', minFunktion);
+document.getElementById('play3').addEventListener('click', function (e) {
+  e.preventDefault();
+  document.getElementById('audio3').play();
+});

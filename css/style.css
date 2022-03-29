@@ -36,23 +36,9 @@ h1 {
   background-color: var(--darkgrey);
 }
 
-.fedtekst {
-  font-family: var(--overskrift);
-}
-
-.beskrivelse {
-  font-family: var(--brødtekst);
-  font-weight: 200;
-}
-
-.citat {
-  font-family: var(--brødtekst);
-  font-style: italic;
-  font-weight: 200;
-}
 
 
-/* indhold */
+/*********** indhold ************/
 
 /*  indhold 2 = om Emma */
 .container{
@@ -105,6 +91,29 @@ line-height: 2.5;
 }
 
 
+/* indhold 5 */
+
+
+.fedtekst {
+  font-family: var(--overskrift);
+  color: var(--darkgrey);
+}
+
+.beskrivelse {
+  font-family: var(--brødtekst);
+  font-weight: 200;
+  color: var(--darkgrey);
+}
+
+.citat {
+  font-family: var(--brødtekst);
+  font-style: italic;
+  font-weight: 200;
+  color: var(--darkgrey);
+}
+
+
+
 /* footer */
 #footerInformation{
   background-color: var(--darkgrey);
@@ -117,18 +126,18 @@ line-height: 2.5;
   font-family: var(--brødtekst);
   color: var(--offwhite);
   font-size: 15px;
-  padding-left: 10%;
+  text-align:center;
 }
 
 
 
 
-/* Mobil, 600px and down) */
-@media only screen and (max-width: 600px) {
+/* Mobil, 768px and down) */
+@media only screen and (max-width: 768px) {
 
 
   .overskrifter {
-    max-width: 100%;
+    max-width: 70%;
     margin-top: 25px;
     margin-bottom: 20px;
   }
@@ -194,7 +203,28 @@ line-height: 2.5;
     margin-top: 25%;
   }
 
+  /* Baggrunds billeder styles */
 
+  .rellax img {
+    max-width: 60px;
+  }
+
+  .sky1 {
+    padding-left: 3%;
+  }
+
+  .sky3 {
+    padding-left: 80%;
+  }
+
+  .sky4 {
+    padding-left: 85%;
+    background-image: url("images/sky4.png");
+  }
+
+  .sky5 {
+    padding-left: 3%;
+  }
 
 
 }
@@ -259,6 +289,29 @@ line-height: 2.5;
     }
 
 
+    /* Baggrunds billeder styles */
+
+    .rellax img {
+      max-width: 120px;
+    }
+
+    .sky1 {
+      padding-left: 3%;
+    }
+
+    .sky3 {
+      padding-left: 80%;
+    }
+
+    .sky4 {
+      padding-left: 85%;
+      background-image: url("images/sky4.png");
+    }
+
+    .sky5 {
+      padding-left: 3%;
+    }
+
 }
 
 
@@ -288,20 +341,24 @@ line-height: 2.5;
   /* Baggrunds billeder styles */
 
   .rellax img {
-    max-width: 180px;
+    max-width: 160px;
   }
 
   .sky1 {
     padding-left: 3%;
   }
 
-  .sky2 {
-    padding-right: 3%;
+  .sky3 {
+    padding-left: 80%;
   }
 
-  .sky3 {
-    padding-left: 60%;
+  .sky4 {
+    padding-left: 85%;
+    background-image: url("images/sky4.png");
+  }
 
+  .sky5 {
+    padding-left: 3%;
   }
 
 }
