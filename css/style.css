@@ -1,0 +1,168 @@
+/** projekt: webdok**/
+
+
+/* Google fonts */
+/* font-family: italiana, serif; font-style: regular; */
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
+
+/* Variabler gemmes*/
+:root {
+  /* farver */
+  --offwhite: #fff9f4;
+  --beige: #f2ece7;
+  --grey: #c3c4c0;
+  --blue: #a0d2f7;
+  --darkgrey: #454343;
+
+
+  /* fonte */
+  --overskrift: 'italiana', serif; /* overskrifter */
+  --brødtekst: 'Helvetica Neue', sans-serif;/* brødtekst */
+
+}
+
+body {
+  background-color: var(--beige);
+}
+
+
+/* typografi */
+
+h1 {
+  font-family: var(--brødtekst);
+  font-weight: 200;
+  color: var(--offwhite);
+  background-color: var(--darkgrey);
+}
+
+.fedtekst {
+  font-family: var(--overskrift);
+}
+
+.beskrivelse {
+  font-family: var(--brødtekst);
+  font-weight: 200;
+}
+
+.citat {
+  font-family: var(--brødtekst);
+  font-style: italic;
+  font-weight: 200;
+}
+
+
+/* indhold */
+
+.banner{
+  background-color: var(--darkgrey);
+  width: 100%;
+}
+
+.banner h1{
+font-size: 22px;
+color: var(--beige);
+padding: 40px;
+}
+
+.banner p{
+font-size: 15px;
+font-family: var(--brødtekst);
+color: var(--beige);
+}
+
+/* footer */
+
+#footerInformation{
+  background-color: var(--darkgrey);
+  color: var(--offwhite);
+  min-height: 45px;
+  padding-top: 23px;
+  padding-bottom: 23px;
+}
+
+
+
+/* Mobil, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+
+  .overskrifter {
+    max-width: 100%;
+  }
+
+  /*indhold mobil */
+
+
+  video {
+    margin-top: 10%;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+/* typografi mobil*/
+  .fedtekst {
+    font-size: 30px;
+  }
+
+  .beskrivelse {
+    font-size: 20px;
+  }
+
+  .citat {
+    font-size: 30px;
+  }
+
+
+
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+  .overskrifter {
+    max-width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  video {
+    margin-top: 10%;
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+
+
+/* Computer (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+  .overskrifter {
+    max-width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  video {
+    margin-top: 10%;
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+}
