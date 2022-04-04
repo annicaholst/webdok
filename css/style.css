@@ -345,6 +345,7 @@ video {
     height: 100%;
     width: 80%;
     display: block;
+    margin-bottom: 10%;
 }
 
 /*  indhold 2 = om Emma */
@@ -449,6 +450,12 @@ video {
 
 /* Computer (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+
+  body {
+   background-color: var(--beige);
+   background-image: url('../images/baggrund1.png');
+   background-repeat: repeat-y;
+  }
 
   .overskrifter {
     max-width: 60%;
