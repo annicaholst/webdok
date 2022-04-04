@@ -6,65 +6,66 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="author" content="Michella Carstens, Annica Holst, Trine Rahbek, Freja Wandahl">
-  <meta name="keywords" content="Webdokumentar, Praktik, ">
-  <meta name="description" content="">
+  <meta name="keywords" content="Webdokumentar, Praktik, Emma Dalsgaard, Multimediedesign, Erhvervsakademi Aarhus, AYTM, Company days, Student days">
+  <meta name="description" content="Følg Emma en dag i praktik hos AYTM og få indblik i hendes tanker og bekymringer omkring en praktikplads. ">
   <link rel="stylesheet" href="css/style.css">
+  <!-- link til AOS library style sheet -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
   <!-- favicon = ikon i faneblad / browser -->
-  <link rel="icon" type="image/x-icon" href="#" />
+  <link rel="icon" type="image/x-icon" href="images/sky3.png"/>
 </head>
 
 <body>
 
 <main>
 
-
-
+<header>
+<p id="headertekst"> Web Dokumentar - Aarhus Erhvervsakademi</p>
+</header>
 
 
   <!-- indhold 1 = video om praktik og video-->
-<img class="overskrifter" src="images/overskrift1.PNG" alt="følgemma">
+<img class="overskrifter" src="images/overskrift1.PNG" alt="følgemma" data-aos="zoom-in" data-aos-delay="50">
 
+      <!-- Baggrunds skyer, som flyver rundt-->
+<div class="rellax sky4" data-rellax-speed="0">
+    <img src="images/sky4.png" alt="Baggrunds billede, abstrakt sky" data-aos="zoom-in">
+</div>
 
 <video controls>
 <source src="images/interview.mp4" type="video/mp4">
 </video>
 
 
-
 <!-- Baggrunds skyer, som flyver rundt-->
+      <div class="rellax sky1" data-rellax-speed="3">
+          <img src="images/sky1.png" alt="Baggrunds billede, abstrakt sky" data-aos="zoom-in">
+      </div>
 
-<div class="rellax sky1" data-rellax-speed="12">
-    <img src="images/sky1.png" alt="Baggrunds billede, abstrakt sky" data-aos="zoom-in"><br>
-</div>
+<!-- indhold 2 = om Emma -->
 
-<div class="rellax sky4" data-rellax-speed="6">
-    <img src="images/sky4.png" alt="Baggrunds billede, abstrakt sky"
-         data-aos="zoom-in"><br>
-</div>
+<article>
+  <div class="container">
+    <div class="left">
+      <img class="overskrifterover" src="images/emmaovrskrift2.png" alt="følgemma" data-aos="zoom-in" data-aos-delay="50">
 
-<div class="rellax sky3" data-rellax-speed="-3">
-    <img src="images/sky3.png" alt="Baggrunds billede, abstrakt sky" data-aos="zoom-in"><br>
-</div>
+    </div>
 
+      <img class="mobilemmaoverskrift" src="images/emmaovrskrift2.png" alt="følgemma" data-aos="zoom-in" data-aos-delay="50">
+        <img class="mobilemmabillede" src="images/emma.JPG" alt="følgemma" data-aos="zoom-in" data-aos-delay="50">
 
+    <div class="right">
 
+      <div class="content">
 
-  <!-- indhold 2 = om Emma -->
-
-<div class="container">
-  <div class"leftcontainer">
-
-<img class="emma" src="images/emma.JPG" alt="Emma billede">
-
-</div>
-
-<div class="rightcontainer">
-<img class="overskrifter" src="images/emmaovrskrift2.png" alt="Emma Dalgaard praktikant hos AYTM">
-<p>Emma er 22 år gammel. Hun flyttede i sommeren 2020 til Aarhus fra Holstebro,
-  for at læse multimediedesign på Aarhus Erhvervsakademi. I hendes fritid elsker hun at bruge tid med sin familie og sine veninder.
-  Lige nu er hun i praktik hos en interiør virksomhed - AYTM. Her har hun ansvaret for SOME ……..</p>
+        <p data-aos="fade-up" data-aos-delay="100">Emma er 22 år gammel. Hun flyttede i sommeren 2020 til Aarhus fra Holstebro, for at læse multimediedesign på Aarhus Erhvervsakademi. I hendes fritid elsker hun at bruge tid med sin familie og sine veninder.
+          Lige nu er hun i praktik hos en interiør virksomhed - AYTM. Her har hun ansvaret for SOME og kontakten til AYTMs samarbejdspartner. </p>
+      </div>
+    </div>
   </div>
-</div>
+</article>
+
+
 
   <!-- indhold 3 = overvejelser inden praktik -->
 
@@ -81,38 +82,30 @@
 
   <!-- indhold 4 = video hos AYTM -->
 
-  <img class="overskrifter" src="images/overskriftAYTM.png" alt="På besøg hos AYTM">
+  <img class="overskrifter" src="images/overskriftAYTM.png" alt="På besøg hos AYTM" data-aos="zoom-in" data-aos-delay="50">
 
-  <video controls>
+  <video id="video2" controls>
   <source src="#" type="video/mp4">
   </video>
 
 
-
-  <!-- Baggrunds skyer, som flyver rundt-->
-    <div class="rellax sky5" data-rellax-speed="-2">
-        <img src="images/sky5.png" alt="Baggrunds billede, abstrakt sky"
-             data-aos="zoom-in"><br>
-    </div>
-
-
   <!-- indhold 5 = tanker fra interviewpersoner -->
 
-<img class="overskrifter" src="images/tankerbekymeringer.png" alt="Tanker og bekymeringer">
+<img class="overskrifter" src="images/tankerbekymeringer.png" alt="Tanker og bekymeringer" data-aos="zoom-in" data-aos-delay="50">
 
 
 <section id="indhold5">
 
   <div class="column5">
 
-  <div class="row5">
+  <div class="row5" data-aos="fade-up" data-aos-delay="150">
     <audio id="audio" src="images/Rasmus.mp3"></audio>
     <a href="#" id="play">
         <img src="images/rasmus.jpg" >
     </a>
   </div>
 
-  <div class="rowtekst">
+  <div class="rowtekst" data-aos="fade-in" data-aos-delay="200">
     <div class="fedtekst"><p>Klik på Rasmus og hør hans tanker</p></div>
     <div class="beskrivelse"><p>Rasmus er 23 år og studerer markedsføringsøkonom på 2. semester på Erhvervsakademiet i Aarhus.</p></div>
     <div class="citat"><p>“Jeg glæder mig til at være på rigtig arbejdsplads og så glæder jeg mig til at bruge de teorier jeg har brugt i praksis”</p></div>
@@ -122,14 +115,14 @@
 
   <div class="column5 mette">
 
-    <div class="row5">
+    <div class="row5" data-aos="fade-up" data-aos-delay="150">
       <audio id="audio2" src="images/Mette.mp3"></audio>
       <a href="#" id="play2">
           <img src="images/mette.jpg" >
       </a>
     </div>
 
-    <div class="rowtekst">
+    <div class="rowtekst" data-aos="fade-in" data-aos-delay="200">
       <div class="fedtekst"><p>Klik på Mette og hør hendes tanker</p></div>
       <div class="beskrivelse"><p>Mette er 22 år og studerer multimediedesign på 2. semester på Erhvervsakademiet i Aarhus.</p></div>
       <div class="citat"><p>“Jeg føler min uddannelse er meget bred, så jeg bliver i tvivl om hvilke muligheder jeg har”</p></div>
@@ -138,14 +131,14 @@
 
   <div class="column5">
 
-    <div class="row5">
+    <div class="row5" data-aos="fade-up" data-aos-delay="150">
       <audio id="audio3" src="images/Karoline.mp3"></audio>
       <a href="#" id="play3">
           <img src="images/karo.jpg" >
       </a>
     </div>
 
-    <div class="rowtekst">
+    <div class="rowtekst" data-aos="fade-in" data-aos-delay="200">
       <div class="fedtekst"><p>Klik på Karoline og hør hendes tanker</p></div>
       <div class="beskrivelse"><p>Karoline er 22 år og har sabbatår. Karoline overvejer at læse på Erhvervsakademiet Aarhus.</p></div>
       <div class="citat"><p>“Jeg kunne godt være bekymret for at finde en praktikplads, fordi jeg føler man skal have gode kontakter”</p></div>
@@ -159,8 +152,8 @@
 
   <!-- indhold 6 = info om student/company days -->
   <div class="banner">
-    <h1>Student and company days </h1>
-    <p> Erhvervsakademiet er gode til at hjælpe de studerende med at finde et
+    <h1>Student and company days </h1 data-aos="fade-up" data-aos-delay="100">
+    <p data-aos="fade-up" data-aos-delay="150"> Erhvervsakademiet er gode til at hjælpe de studerende med at finde et
       praktiksted. Her er de fx med til at arrangere flere student og company
       days. Ved student days har man, som studerende en lille stand, hvor de
       forskellige virksomheder kommer rundt og høre om lige præcis dig.
@@ -170,15 +163,38 @@
       finde sin praktikplads her.  </p>
   </div>
 
+  <!-- Baggrunds skyer, som flyver rundt-->
+  <div class="rellax sky1" data-rellax-speed="0">
+      <img src="images/sky1.png" alt="Baggrunds billede, abstrakt sky" data-aos="zoom-in">
+  </div>
+
 
   <!-- indhold 7 = fremtidsplaner -->
-  <img class="overskrifter" src="images/fremtid.png" alt="Fremtidsplaner">
 
+  <section id="indhold7">
+
+    <img class="overskrifter" src="images/fremtid.png" alt="Fremtidsplaner" data-aos="zoom-in" data-aos-delay="50">
+
+    <div class="column7">
+      <div class="row7">
+        <video autoplay muted loop
+         src="video/emmad.mp4">
+        </video>
+      </div>
+
+        <div class="row7" data-aos="fade-up" data-aos-delay="100">
+          <p id="fremtidtekst">Emma afslutter sit praktikforløb hos AYTM i juni måned. Herefter vil hun gerne læse videre, og tage en professionsbachelor i Design & Business på VIA. Med fra sin praktik har hun en masse erfaring, samtidigt med at det har hjulpet hende med at finde ud af hvilken retning hun ønsker at gå i i fremtiden. I fremtiden vil hun gerne arbejde mere med marketing og SOME, da hun har fundet det meget interessant i sin praktik.</p>
+        </div>
+
+    </div>
+  </section>
 
 
 
 </main>
 
+
+<!-- Footer -->
 <footer>
     <div id="footerInformation">
     <p>Læs mere om erhvervsakademiet på https://www.eaaa.dk/</p>
@@ -187,9 +203,15 @@
 
 
 
-
-<!-- Først loades 1. library-->
+<!-- Rellax library-->
   <script src="js/rellax.min.js"></script>
+
+<!-- AOS library-->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
 
 <!-- Link til vores eget JS-->
   <script src="js/js.js"></script>
